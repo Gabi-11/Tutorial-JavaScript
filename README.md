@@ -42,5 +42,22 @@ A definição da função (também chamada de declaração de função) consiste
 
 ## Estruturas de controle
 
+No JavaScript, temos as seguintes estruturas condicionais:
+
+* IF/Else: especificando um bloco de código para ser executado caso a condição seja verdadeira
+* Else if: especificar uma nova condição de teste caso a primeira seja falsa
+* Switch: especificar diversos blocos alternativos para serem executados
 
 ## Eventos e Manipulação do DOM
+
+Eventos DOM (Document Object Model) são mecanismos do JavaScript que permitem aos desenvolvedores manipular e responder a eventos que ocorrem em elementos HTML. Esses eventos podem ser desde um clique do mouse até o envio de um formulário. Ao entender como os eventos DOM funcionam, os desenvolvedores podem criar interações dinâmicas e responsivas em suas páginas da web.
+
+Como os eventos DOM funcionam?
+Quando uma ação ocorre em um elemento HTML, como um botão sendo clicado, um evento é acionado. O JavaScript pode então detectar e responder a esse evento executando uma ação específica. Isso é feito através da associação de um manipulador de eventos a um elemento HTML específico.
+
+Existem vários tipos de eventos DOM disponíveis para uso em JavaScript. Alguns dos mais comuns incluem:
+
+* Eventos de clique: como “click”, acionados quando um elemento é clicado.
+* Eventos de teclado: como “keydown” ou “keyup”, acionados quando uma tecla é pressionada ou liberada no teclado.
+* Eventos de formulário: como “submit” ou “change”, acionados quando um formulário é submetido ou um campo de entrada é alterado.
+* Eventos de mouse: como “mouseover” ou “mouseout”, acionados quando um mouse é movido sobre um elemento ou fora dele.
