@@ -23,6 +23,7 @@ Você usa variáveis como nomes simbólicos para os valores em sua aplicação. 
 ### Tipo Boolean
 Boolean representa uma entidade lógica e pode ter dois valores: true e false.
 
+
 ### Tipo Null
 O tipo Null tem exatamente um valor: null.
 
@@ -45,9 +46,59 @@ A definição da função (também chamada de declaração de função) consiste
 No JavaScript, temos as seguintes estruturas condicionais:
 
 * IF/Else: especificando um bloco de código para ser executado caso a condição seja verdadeira
-* Else if: especificar uma nova condição de teste caso a primeira seja falsa
-* Switch: especificar diversos blocos alternativos para serem executados
+```
+if (condição) {
+    // Bloco de código para ser executado.
+}
 
+ Exemplo:
+if (x< 5) {
+    mensagem = "É menor que 5";
+}
+```
+```
+if (x< 5) {
+    mensagem = "É menor que 5";
+} else {
+    mensagem = "É maior que 5";
+}
+```
+* Else if: especificar uma nova condição de teste caso a primeira seja falsa
+````
+if (condicao-1) {
+    // Será executado este bloco caso a condição 1 seja verdadeira
+} else if (condicao-1) {
+    // Será executado este bloco caso a condição 1 seja falsa, e a 2 seja verdadeira
+} else {
+    // Será executado este bloco caso as condições 1 e 2 sejam falsas
+}
+
+Exemplo:
+if (x< 5) {
+    mensagem = "É menor que 5";
+} else if (x > 5){
+    mensagem = "É maior que 5";
+} else {
+   mensagem = "É igual a 5";
+}
+
+````
+* Switch: especificar diversos blocos alternativos para serem executados
+````
+switch(expressao) {
+    case n:
+        // bloco de código
+        break;
+    case n:
+        // bloco de código
+        break;
+    default:
+        // bloco de block
+}
+
+No Switch, a expressão é testado uma única vez e logo após, comparado com as condições na estrutura. Quando o JavaScript interpreta a palavra break, ele simplesmente sai do bloco do switch. Isso pode salvar algum tempo de execução.
+
+````
 ## Eventos e Manipulação do DOM
 
 Eventos DOM (Document Object Model) são mecanismos do JavaScript que permitem aos desenvolvedores manipular e responder a eventos que ocorrem em elementos HTML. Esses eventos podem ser desde um clique do mouse até o envio de um formulário. Ao entender como os eventos DOM funcionam, os desenvolvedores podem criar interações dinâmicas e responsivas em suas páginas da web.
