@@ -224,3 +224,12 @@ console.log(1 / 2); /* imprime 0.5 */
 console.log(1 / 2 == 1.0 / 2.0); /* isto também é verdadeiro */
 
 ````
+
+### Operadores Lógicos
+São Utilizados para realizar operações lógicas entre valores booleanos (verdadeiro ou falso). 
+
+````
+let a = true;
+let b = false;
+console.log(a && b); // Saída: false
+````
