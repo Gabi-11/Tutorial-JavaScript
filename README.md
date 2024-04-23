@@ -28,6 +28,21 @@ Essas são as etapas básicas para configurar o ambiente de desenvolvimento para
 
 JavaScript pega emprestado a maior parte de sua sintaxe do Java, mas também é influenciado por Awk, Perl e Python. No JavaScript, instruções são chamadas de declaração e são separadas por um ponto e vírgula (;). Espaços, tabulação e uma nova linha são chamados de espaços em branco. O código fonte dos scripts em JavaScript são lidos da esquerda para a direita e são convertidos em uma sequência de elementos de entrada como simbolos, caracteres de controle, terminadores de linha, comentários ou espaço em branco.
 
+````
+Exemplo:
+
+// Declaração de variável
+let idade = 25;
+
+// Estrutura condicional (if-else)
+if (idade >= 18) {
+    console.log("Você é maior de idade.");
+} else {
+    console.log("Você é menor de idade.");
+}
+
+````
+
 ## Variáveis
 
 Você usa variáveis como nomes simbólicos para os valores em sua aplicação. O nome das variáveis, chamados de identificadores, obedecem determinadas regras. Um identificador JavaScript deve começar com uma letra, underline (_), ou cifrão ($); os caracteres subsequentes podem também ser números (0-9). Devido JavaScript ser case-sensitive, letras incluem caracteres de "A" a "Z" (maiúsculos) e caracteres de "a" a "z" (minúsculos).
@@ -241,6 +256,29 @@ Tomam valores numéricos (sejam literais ou variáveis) como seus operandos e re
 console.log(1 / 2); /* imprime 0.5 */
 console.log(1 / 2 == 1.0 / 2.0); /* isto também é verdadeiro */
 
+````
+* Soma
+````
+let soma = 10 + 5;
+console.log(soma); // Saída: 15
+````
+* Subtração
+````
+let subtracao = 20 - 8;
+console.log(subtracao); // Saída: 12
+````
+  
+* Multiplicação
+````
+let multiplicacao = 7 * 4;
+console.log(multiplicacao); // Saída: 28
+````
+
+* Divisão
+
+````
+let divisao = 100 / 5;
+console.log(divisao); // Saída: 20
 ````
 
 ### Operadores Lógicos
