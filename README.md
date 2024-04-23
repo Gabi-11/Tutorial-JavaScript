@@ -213,3 +213,14 @@ Existem vários tipos de eventos DOM disponíveis para uso em JavaScript. Alguns
 * Eventos de teclado: como “keydown” ou “keyup”, acionados quando uma tecla é pressionada ou liberada no teclado.
 * Eventos de formulário: como “submit” ou “change”, acionados quando um formulário é submetido ou um campo de entrada é alterado.
 * Eventos de mouse: como “mouseover” ou “mouseout”, acionados quando um mouse é movido sobre um elemento ou fora dele.
+
+## Operadores 
+
+### Operadores aritméticos 
+Tomam valores numéricos (sejam literais ou variáveis) como seus operandos e retornam um único valor númerico. Os operadores aritméticos padrão são os de soma (+), subtração (-), multiplicação (*) e divisão (/). Estes operadores trabalham da mesma forma como na maioria das linguagens de programação quando utilizados com números de ponto flutuante (em particular, repare que divisão por zero produz um NaN (en-US)).
+
+````
+console.log(1 / 2); /* imprime 0.5 */
+console.log(1 / 2 == 1.0 / 2.0); /* isto também é verdadeiro */
+
+````
