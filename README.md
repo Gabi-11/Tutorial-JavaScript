@@ -23,14 +23,52 @@ Você usa variáveis como nomes simbólicos para os valores em sua aplicação. 
 ### Tipo Boolean
 Boolean representa uma entidade lógica e pode ter dois valores: true e false.
 
+````
+let isAtivo = true;
+let estaChovendo = false;
 
+console.log(isAtivo); // Saída: true
+console.log(estaChovendo); // Saída: false
+
+````
+````
+let usuarioLogado = true;
+
+if (usuarioLogado) {
+    console.log("Bem-vindo! Você está logado.");
+} else {
+    console.log("Por favor, faça o login para continuar.");
+}
+````
 ### Tipo Null
 O tipo Null tem exatamente um valor: null.
 
+````
+let variavelNula = null;
+
+console.log(variavelNula); // Saída: null
+
+````
+````
+let valor = null;
+
+if (valor === null) {
+    console.log("A variável não possui um valor válido.");
+} else {
+    console.log("O valor da variável é: " + valor);
+}
+````
 ### Tipo Number
 O tipo Number é um valor IEEE 754 de formato binário de 64 bits de precisão dupla. É capaz de armazenar números de ponto flutuante positivos entre 2^-1074 (Number.MIN_VALUE) e 2^1024 (Number.MAX_VALUE), bem como números de ponto flutuante negativos entre -(2^-1074) e -(2^1024), mas só pode armazenar com segurança inteiros no intervalo -(2^53 − 1) (Number.MIN_SAFE_INTEGER) para 2^53 − 1 (Number.MAX_SAFE_INTEGER).
 
+````
+let numeroInteiro = 42;
+let numeroDecimal = 3.14;
 
+console.log(numeroInteiro); // Saída: 42
+console.log(numeroDecimal); // Saída: 3.14
+
+````
 ## Funções
 Funções são blocos de construção fundamentais em JavaScript. Uma função é um procedimento de JavaScript - um conjunto de instruções que executa uma tarefa ou calcula um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
 
@@ -107,8 +145,13 @@ switch(expressao) {
 }
 
 No Switch, a expressão é testado uma única vez e logo após, comparado com as condições na estrutura. Quando o JavaScript interpreta a palavra break, ele simplesmente sai do bloco do switch. Isso pode salvar algum tempo de execução.
-
 ````
+* For: Permite executar um bloco de código repetidamente enquanto uma condição específica for verdadeira.
+```
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+```
 ## Eventos e Manipulação do DOM
 
 Eventos DOM (Document Object Model) são mecanismos do JavaScript que permitem aos desenvolvedores manipular e responder a eventos que ocorrem em elementos HTML. Esses eventos podem ser desde um clique do mouse até o envio de um formulário. Ao entender como os eventos DOM funcionam, os desenvolvedores podem criar interações dinâmicas e responsivas em suas páginas da web.
