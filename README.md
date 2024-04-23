@@ -200,6 +200,24 @@ for (let i = 1; i <= 5; i++) {
     console.log(i);
 }
 ```
+
+* While: Permite a repetição de um bloco de código enquanto uma condição específica for verdadeira.
+
+````
+while (condição) {
+    // bloco de código a ser executado enquanto a condição for verdadeira
+}
+````
+````
+let contador = 1;
+
+while (contador <= 5) {
+    console.log("Contagem: " + contador);
+    contador++;
+}
+
+````
+
 ## Eventos e Manipulação do DOM
 
 Eventos DOM (Document Object Model) são mecanismos do JavaScript que permitem aos desenvolvedores manipular e responder a eventos que ocorrem em elementos HTML. Esses eventos podem ser desde um clique do mouse até o envio de um formulário. Ao entender como os eventos DOM funcionam, os desenvolvedores podem criar interações dinâmicas e responsivas em suas páginas da web.
