@@ -36,10 +36,20 @@ Funções são blocos de construção fundamentais em JavaScript. Uma função �
 
 A definição da função (também chamada de declaração de função) consiste no uso da palavra chave function (en-US), seguida por:
 
-
 * Nome da Função.
 * Lista de argumentos para a função, entre parênteses e separados por vírgulas.
 * Declarações JavaScript que definem a função, entre chaves { }.
+
+````
+function somarNumeros(numero1, numero2) {
+    return numero1 + numero2;
+}
+
+// Exemplo de uso da função
+let resultado = somarNumeros(5, 3);
+console.log(resultado); // Saída: 8
+
+````
 
 ## Estruturas de controle
 
