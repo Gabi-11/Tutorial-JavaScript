@@ -16,7 +16,39 @@ JavaScript pega emprestado a maior parte de sua sintaxe do Java, mas também é 
 
 Você usa variáveis como nomes simbólicos para os valores em sua aplicação. O nome das variáveis, chamados de identificadores, obedecem determinadas regras. Um identificador JavaScript deve começar com uma letra, underline (_), ou cifrão ($); os caracteres subsequentes podem também ser números (0-9). Devido JavaScript ser case-sensitive, letras incluem caracteres de "A" a "Z" (maiúsculos) e caracteres de "a" a "z" (minúsculos).
 
+* Variável com Let: Usado para declarar uma variável mutável
+```
+let nome = "João";
+let idade = 30;
 
+console.log(nome); // Saída: João
+console.log(idade); // Saída: 30
+```
+* Variável com Const: Usado para declarar constantes, ou seja, variáveis imutáveis cujo valor não pode ser alterado depois de definido.
+````
+const PI = 3.14;
+const SITE_URL = "https://www.exemplo.com";
+
+console.log(PI); // Saída: 3.14
+console.log(SITE_URL); // Saída: https://www.exemplo.com
+````
+
+
+
+* Variáveis de Objetos: Além de armazenar valores simples, let pode ser usado para declarar variáveis que referenciam objetos complexos, como um objeto pessoa.
+
+````
+let pessoa = {
+    nome: "Maria",
+    idade: 25,
+    cidade: "São Paulo"
+};
+
+console.log(pessoa.nome); // Saída: Maria
+console.log(pessoa.idade); // Saída: 25
+console.log(pessoa.cidade); // Saída: São Paulo
+
+````
 
 ## Tipos de Dados
 
